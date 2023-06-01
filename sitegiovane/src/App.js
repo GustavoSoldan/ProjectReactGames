@@ -13,7 +13,7 @@ class App extends Component{
     }
   }
 
-  render(){
+  render13(){
     return(
       <>
       <Header></Header>
