@@ -18,6 +18,7 @@ class App extends Component{
       <>
       <Header></Header>
       <div></div>
+      <div></div>
       </>
     );
   }
