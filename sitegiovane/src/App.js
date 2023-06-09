@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Header from './JS/Components/header.js';
+import Carousel from './JS/Components/carousel.js';
 import './assets/css/estilo.css';
 import './assets/css/normalize.css';
 
@@ -13,12 +14,13 @@ class App extends Component{
     }
   }
 
-  render13(){
+  render(){
     return(
       <>
       <Header></Header>
+      <Carousel></Carousel>
       <div></div>
-      <h1>hi</h1>
+
       </>
     );
   }
