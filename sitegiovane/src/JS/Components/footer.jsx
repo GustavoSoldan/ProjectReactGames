@@ -4,6 +4,9 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 import '../../assets/css/estilo.css';
 import logo from '../../assets/imagens/logo.png';
+import twitter from '../../assets/imagens/twitter.png';
+import facebook from '../../assets/imagens/facebook.png';
+import instagram from '../../assets/imagens/instagram.png';
 
 class Footer extends Component{
     render(){
@@ -46,17 +49,17 @@ class Footer extends Component{
                     <ul>
                     <li>
                         <a href="">
-                        <img src="assets/imagens/facebook.png" width={50} />
+                        <img src={facebook} width={50} />
                         </a>
                     </li>
                     <li>
                         <a href="">
-                        <img src="assets/imagens/twitter.png" width={50} />
+                        <img src={twitter} width={50} />
                         </a>
                     </li>
                     <li>
                         <a href="">
-                        <img src="assets/imagens/instagram.png" width={50} />
+                        <img src={instagram} width={50} />
                         </a>
                     </li>
                     </ul>

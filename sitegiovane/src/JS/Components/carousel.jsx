@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+
 import hollow from '../../assets/imagens/hollow.jpg';
 import hollowDois from '../../assets/imagens/hollow2.jpg';
 import hollowTres from '../../assets/imagens/hollow3.jpg';
@@ -107,7 +108,7 @@ class Carousel extends Component{
                               <div id="post_gerais_desc">
                                 <div id="obter">
                                   <a href="#">
-                                    <img src="assets/imagens/cart-plus.svg" width={28} />
+                                    <img src="" width={28} />
                                     Obter Agora!
                                   </a>
                                   <br />
