@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Routes, Switch, Route, Redirect, Link} from "react-router-dom";
 
+import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import App from '../../App';
 
 import Header from '../Components/header';
